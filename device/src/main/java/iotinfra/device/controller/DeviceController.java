@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/device")
-public class DeviceController {
+public class DeviceController { // methods to create and retrieve device info
 
 	public static final String X_OWNER_ID = "X-OwnerId";
 	private final DeviceService deviceService;
